@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/7c9b04be0e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>Hello</p>
+    </div>
+    <div class="login">
+      <div class="left">
+        <img src="orangeswirl.jpg" alt="orangeimg" />
+      </div>
+      <div class="right">
+        <h1>Login</h1>
+        <form action="https://httpbin.org/post" method="post">
+          <div>
+            <label for="Uemail"></label>
+            <input
+              type="text"
+              id="Uemail"
+              name="Uemail"
+              placeholder="email"
+              required
+            />
+            <i class="fa-solid fa-pencil"></i>
+          </div>
+          <div>
+            <label for="Upass"></label>
+            <input
+              type="text"
+              id="Upass"
+              name="Upass"
+              placeholder="password"
+              required
+            />
+            <i class="fa-solid fa-pencil"></i>
+          </div>
+          <div>
+            <button>Submit</button>
+            <i class="fa-solid fa-check"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
